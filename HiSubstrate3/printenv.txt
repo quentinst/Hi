@@ -1,0 +1,25 @@
+printenv
+_=/system/bin/printenv
+ANDROID_BOOTLOGO=1
+ANDROID_PROPERTY_WORKSPACE=14,66560
+LOOP_MOUNTPOINT=/mnt/obb
+VIBE_PIPE_PATH=/dev/pipes
+PATH=/data/local/tmp:/sbin:/vendor/bin:/system/sbin:/system/bin:/system/xbin
+USER=root
+EXTERNAL_STORAGE=/mnt/sdcard
+LOGNAME=root
+ANDROID_DATA=/data
+RANDOM=25853
+TERM=vt100
+MKSH=/system/bin/sh
+HOME=/
+LD_LIBRARY_PATH=/vendor/lib:/system/lib
+SECONDARY_STORAGE=/mnt/extSdCard:/mnt/UsbDriveA:/mnt/UsbDriveB:/mnt/UsbDriveC:/mnt/UsbDriveD:/mnt/UsbDriveE:/mnt/UsbDriveF
+PS1=$(precmd)$USER@$HOSTNAME:${PWD:-?} #
+ASEC_MOUNTPOINT=/mnt/asec
+HOSTNAME=android
+BOOTCLASSPATH=/system/framework/core.jar:/system/framework/core-junit.jar:/system/framework/bouncycastle.jar:/system/framework/ext.jar:/system/framework/framework.jar:/system/framework/framework2.jar:/system/framework/android.policy.jar:/system/framework/services.jar:/system/framework/apache-xml.jar:/system/framework/filterfw.jar:/system/framework/sec_edm.jar:/system/framework/seccamera.jar
+ANDROID_ROOT=/system
+SHELL=/system/bin/sh
+ANDROID_ASSETS=/system/app
+root@android:/data/local/tmp #
